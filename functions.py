@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 
 # from selenium.webdriver.firefox.options import Options
 # firefox_options = Options()
-# firefox_options.set_headless()
-# driver = webdriver.Firefox(options=firefox_options)
+# firefox_options.headless = True
+# driver = webdriver.Firefox(options=firefox_options, executable_path=PATH)
 
 # <<
 

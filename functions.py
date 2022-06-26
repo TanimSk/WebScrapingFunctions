@@ -6,9 +6,11 @@ from selenium.webdriver.common.by import By
 # from selenium.webdriver.firefox.options import Options
 # firefox_options = Options()
 # firefox_options.headless = True
+
 # driver = webdriver.Firefox(options=firefox_options, executable_path=PATH)
 
-# <<
+# >> if using chrome driver
+# driver = webdriver.Chrome(PATH)
 
 driver = webdriver.Firefox()
 
